@@ -1,0 +1,33 @@
+{
+  "repository": {
+    "slug": "takahiro-shimizu-1/automation-runner-cloud-run-lab"
+  },
+  "workspaceGlobs": [
+    "app"
+  ],
+  "auditWorkspaceGlobs": [],
+  "deploy": {
+    "providerTargets": {
+      "cloud-run": [
+        "api",
+        "console"
+      ]
+    },
+    "providerTargetProfiles": {
+      "cloud-run": {
+        "api": {
+          "variant": "backend"
+        },
+        "console": {
+          "variant": "frontend"
+        }
+      }
+    },
+    "providerPresetCommands": {
+      "cloud-run": {
+        "backend": "scripts/product/backend-deploy.sh",
+        "frontend": "scripts/product/frontend-deploy.sh"
+      }
+    }
+  }
+}

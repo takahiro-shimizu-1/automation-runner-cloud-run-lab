@@ -1,0 +1,7 @@
+node_modules/
+.ai/
+.gitnexus/
+dist/
+.env
+project_memory/tasks.json
+.npmrc
