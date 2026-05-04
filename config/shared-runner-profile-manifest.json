@@ -22,7 +22,15 @@
   },
   "gitnexus": {
     "repoName": "automation-runner-cloud-run-lab",
-    "portfolios": [],
+    "registryName": "automation-runner-cloud-run-lab",
+    "repoSlug": "takahiro-shimizu-1/automation-runner-cloud-run-lab",
+    "portfolios": [
+      {
+        "name": "local-main",
+        "groupPath": "validation/cloud-run",
+        "role": "validation"
+      }
+    ],
     "bootstrap": {
       "enabled": true,
       "defaultCommand": "automation-runner gitnexus-bootstrap"
