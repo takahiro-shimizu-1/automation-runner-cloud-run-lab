@@ -1,0 +1,5 @@
+{
+  "$schema": "./gitnexus-contracts.schema.json",
+  "version": 1,
+  "contracts": []
+}
